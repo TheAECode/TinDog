@@ -1,0 +1,192 @@
+/* title  */
+#title {
+    background-color: rgb(255, 140, 0);
+    color: white;
+
+
+}
+
+.title-img {
+    width: 20%;
+    right: 25%;
+    transform: rotate(27deg);
+    position: absolute;
+    z-index: 1;
+
+}
+
+/* containers */
+.container-fluid {
+    padding: 3% 5% 10%;
+}
+
+/* Feature section */
+#features {
+    padding: 7% 14%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 2% 3%;
+
+}
+
+
+/* Testemonial Section */
+#testimonials {
+
+    text-align: center;
+    background-color: rgb(255, 140, 0);
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.img2 {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+#press {
+    background-color: rgb(255, 140, 0);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.pressimg {
+    width: 10%;
+    margin: 5%;
+}
+
+/* Icon */
+.icon {
+    color: #FED8B1;
+    margin-bottom: 1rem;
+
+}
+
+.icon:hover {
+    color: rgb(255, 140, 0);
+}
+
+/* icons */
+.icons {
+    padding: 1.5%;
+}
+
+
+/* Navigation Bar */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: "Monserrate-light";
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Button */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* cta */
+#cta {
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 140, 0);
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+}
+
+.CTA {
+    padding: 5% 5% 3%;
+
+}
+
+/* footer */
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 5% 5% 3%;
+
+}
+
+/* HTML Tags */
+body {
+    font-family: 'Montserrat-Black 900', sans-serif;
+    ;
+}
+
+h1 {
+    font-family: 'Montserrat-Black 900', sans-serif;
+    font-size: 4.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat-Black 900', sans-serif;
+
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+
+h3 {
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+}
+
+p {
+    color: #AFAFAF;
+}
+
+@media (max-width: 1044px) {
+    .title-img {
+        position: static;
+        width: 35%;
+        transform: rotate(0);
+    }
+
+    body {
+        text-align: center;
+
+    }
+
+}
